@@ -8720,11 +8720,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\hr\\hr\\hr.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\hris\\hr.csproj",
       "projectName": "hr",
-      "projectPath": "C:\\Users\\ASUS\\source\\repos\\hr\\hr\\hr.csproj",
+      "projectPath": "C:\\Users\\ASUS\\source\\repos\\hris\\hr.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\source\\repos\\hr\\hr\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\source\\repos\\hris\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

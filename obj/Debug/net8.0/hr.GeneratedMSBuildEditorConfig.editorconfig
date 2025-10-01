@@ -17,105 +17,105 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = hr
 build_property.RootNamespace = hr
-build_property.ProjectDir = C:\Users\ASUS\source\repos\hr\hr\
+build_property.ProjectDir = C:\Users\ASUS\source\repos\hris\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ASUS\source\repos\hr\hr
+build_property.MSBuildProjectDirectory = C:\Users\ASUS\source\repos\hris
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/ASUS/source/repos/hr/hr/Views/Auth/Login.cshtml]
+[C:/Users/ASUS/source/repos/hris/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/hr/hr/Views/Department/Create.cshtml]
+[C:/Users/ASUS/source/repos/hris/Views/Department/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/hr/hr/Views/Department/Delete.cshtml]
+[C:/Users/ASUS/source/repos/hris/Views/Department/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/hr/hr/Views/Department/Details.cshtml]
+[C:/Users/ASUS/source/repos/hris/Views/Department/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/hr/hr/Views/Department/Edit.cshtml]
+[C:/Users/ASUS/source/repos/hris/Views/Department/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/hr/hr/Views/Department/Index.cshtml]
+[C:/Users/ASUS/source/repos/hris/Views/Department/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/hr/hr/Views/Home/Index.cshtml]
+[C:/Users/ASUS/source/repos/hris/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/hr/hr/Views/Home/Privacy.cshtml]
+[C:/Users/ASUS/source/repos/hris/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/hr/hr/Views/Jabatan/Create.cshtml]
+[C:/Users/ASUS/source/repos/hris/Views/Jabatan/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmFiYXRhblxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/hr/hr/Views/Jabatan/Delete.cshtml]
+[C:/Users/ASUS/source/repos/hris/Views/Jabatan/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmFiYXRhblxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/hr/hr/Views/Jabatan/Details.cshtml]
+[C:/Users/ASUS/source/repos/hris/Views/Jabatan/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmFiYXRhblxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/hr/hr/Views/Jabatan/Edit.cshtml]
+[C:/Users/ASUS/source/repos/hris/Views/Jabatan/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmFiYXRhblxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/hr/hr/Views/Jabatan/Index.cshtml]
+[C:/Users/ASUS/source/repos/hris/Views/Jabatan/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmFiYXRhblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/hr/hr/Views/Shared/Error.cshtml]
+[C:/Users/ASUS/source/repos/hris/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/hr/hr/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ASUS/source/repos/hris/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/hr/hr/Views/User/Create.cshtml]
+[C:/Users/ASUS/source/repos/hris/Views/User/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/hr/hr/Views/User/Delete.cshtml]
+[C:/Users/ASUS/source/repos/hris/Views/User/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/hr/hr/Views/User/Details.cshtml]
+[C:/Users/ASUS/source/repos/hris/Views/User/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/hr/hr/Views/User/Edit.cshtml]
+[C:/Users/ASUS/source/repos/hris/Views/User/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/hr/hr/Views/User/Index.cshtml]
+[C:/Users/ASUS/source/repos/hris/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/hr/hr/Views/_ViewImports.cshtml]
+[C:/Users/ASUS/source/repos/hris/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/hr/hr/Views/_ViewStart.cshtml]
+[C:/Users/ASUS/source/repos/hris/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/hr/hr/Views/Shared/_Layout.cshtml]
+[C:/Users/ASUS/source/repos/hris/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ntw3n19dm9
