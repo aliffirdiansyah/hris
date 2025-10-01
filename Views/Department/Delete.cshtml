@@ -1,0 +1,31 @@
+﻿@model hr.Models.DepartmentVM.Delete
+
+@{
+    ViewData["Title"] = "Delete Department";
+}
+
+<h1 class="text-danger">Delete @Html.DisplayFor(model => model.Nama_Department)</h1>
+
+<div class="alert alert-warning">
+    <h5>⚠️ Apakah anda yakin ingin menghapus @Html.DisplayFor(model => model.Nama_Department) ?</h5>
+    <p class="mb-0">Data yang dihapus tidak bisa dikembalikan.</p>
+</div>
+
+<div class="card shadow-sm mb-3">
+    <div class="card-body">
+        <h4 class="card-title">Department</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-3">Nama Department :</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Nama_Department)</dd>
+        </dl>
+    </div>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">
+        <i class="bi bi-trash"></i> Delete
+    </button>
+    <a asp-action="Index" class="btn btn-secondary ms-2">Back to List</a>
+</form>

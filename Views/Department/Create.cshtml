@@ -1,0 +1,58 @@
+@model hr.Models.DepartmentVM.Create
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Department</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nama_Department" class="control-label">Nama Department</label>
+                @Html.TextBoxFor(x => x.Nama_Department, new { @class = "form-control" })
+                <span asp-validation-for="Nama_Department" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <button type="submit" class="btn btn-primary">Simpan Data</button>
+                <a asp-action="Index" class="btn btn-danger ms-2">Kembali</a>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+         $("#createForm").submit(function(e) {
+            e.preventDefault();
+
+            var token = $('input[name="__RequestVerificationToken"]').val();
+
+            $.ajax({
+                url: $(this).attr('action'),
+                type: 'POST',
+                data: {
+                    __RequestVerificationToken: token,
+                    Nama_Department: $("#Nama_Department").val(),
+                },
+                success: function(response){
+                    // kalau controller redirect, AJAX tidak langsung redirect
+                    // bisa tampil alert / redirect manual
+                    alert("Data berhasil disimpan!");
+                    window.location.href = "/Department/Index"; // redirect manual
+                },
+                error: function(xhr){
+                    alert("Terjadi kesalahan: " + xhr.statusText);
+                }
+            });
+        });
+    </script>
+}

@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - HRIS</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+
+    <!-- Custom -->
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/hr.styles.css" asp-append-version="true" />
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            min-height: 100vh;
+            width: 220px;
+            background-color: #212529; /* hitam */
+        }
+
+            .sidebar .nav-link {
+                color: #adb5bd;
+            }
+
+                .sidebar .nav-link.active,
+                .sidebar .nav-link:hover {
+                    color: #fff;
+                    background-color: #343a40;
+                    border-radius: 5px;
+                }
+
+        .content {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        main {
+            flex-grow: 1;
+        }
+
+        footer {
+            margin-top: auto; /* dorong footer ke bawah */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <!-- Sidebar -->
+    <nav class="sidebar d-flex flex-column p-3">
+        <!-- Logo -->
+        <div class="text-center mb-3">
+            <img src="~/images/qris.png" alt="Logo QRIS" class="img-fluid mb-2" style="max-width:120px;">
+        </div>
+
+        <!-- Brand -->
+        <a class="navbar-brand text-white mb-3 fw-bold d-block text-center"
+           asp-area="" asp-controller="Home" asp-action="Index">
+            HRIS
+        </a>
+
+        @if (User.Identity.IsAuthenticated)
+        {
+            <ul class="nav flex-column mb-auto">
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">🏠 Home</a>
+                </li>
+                <li>
+                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">🔒 Privacy</a>
+                </li>
+                <li>
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="collapse" href="#masterMenu" role="button" aria-expanded="false" aria-controls="masterMenu">
+                        ⚙️ Master HRIS
+                    </a>
+                    <div class="collapse ps-3" id="masterMenu">
+                        <a asp-controller="Department" asp-action="Index" class="nav-link">Department</a>
+                        <a asp-controller="Jabatan" asp-action="Index" class="nav-link">Jabatan</a>
+                        <a asp-controller="User" asp-action="Index" class="nav-link">Pegawai</a>
+                    </div>
+                </li>
+            </ul>
+
+            <hr />
+
+            <div>
+                <span class="text-white d-block mb-2">👋 Halo, <b>@User.Identity.Name</b></span>
+                <form asp-controller="Auth" asp-action="Logout" method="post" class="d-inline">
+                    <button type="submit" class="btn btn-sm btn-outline-light w-100">Logout</button>
+                </form>
+            </div>
+        }
+    </nav>
+
+
+    <!-- Main Content -->
+    <div class="content">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer py-3 border-top bg-light">
+            <div class="container text-center">
+                <span class="text-muted">&copy; 2025 - HRIS | <a asp-controller="Home" asp-action="Privacy">Privacy</a></span>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/datatable-init.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+    
