@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zn1JqjoVDkE=",
+  "dgSpecHash": "sC+XJTh/BT8=",
   "success": true,
   "projectFilePath": "C:\\Users\\ASUS\\source\\repos\\hris\\hr.csproj",
   "expectedPackageFiles": [
@@ -70,6 +70,8 @@
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.3.0\\microsoft.aspnetcore.http.extensions.2.3.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.0\\microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.0\\microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\8.0.0\\microsoft.aspnetcore.mvc.razor.runtimecompilation.8.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.24\\microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.session\\2.3.0\\microsoft.aspnetcore.session.2.3.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.3.0\\microsoft.aspnetcore.webutilities.2.3.0.nupkg.sha512",

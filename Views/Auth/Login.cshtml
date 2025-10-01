@@ -1,19 +1,40 @@
 ﻿@{
     ViewData["Title"] = "Login";
 }
-<h2>Login</h2>
-<form method="post">
-    <div>
-        <label>Email</label>
-        <input type="text" name="email" required />
+
+
+ <h2 class="text-center">Login</h2>
+
+
+
+<div class="d-flex justify-content-center align-items-center" style="min-height: 70vh;">
+    <div class="card p-4" style="width: 300px;">
+        <form method="post">
+            @Html.AntiForgeryToken()
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control form-control-sm" id="email" name="email" required />
+            </div>
+
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control form-control-sm" id="password" name="password" required />
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100 btn-sm">Login</button>
+
+            @if (!string.IsNullOrEmpty(ViewBag.Error))
+            {
+                <div class="text-danger mt-2">@ViewBag.Error</div>
+            }
+        </form>
     </div>
-    <div>
-        <label>Password</label>
-        <input type="password" name="password" required />
-    </div>
-    <button type="submit">Login</button>
-</form>
-@if (ViewBag.Error != null)
+</div>
+
+@if (!string.IsNullOrEmpty(ViewBag.Error))
 {
-    <p style="color:red">@ViewBag.Error</p>
+    <div style="color:red; margin-top:10px;">
+        @ViewBag.Error
+    </div>
 }

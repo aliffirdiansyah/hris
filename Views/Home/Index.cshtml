@@ -2,17 +2,26 @@
     ViewData["Title"] = "Dashboard Hris";
 }
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col">
+<div class="container my-4" style="max-width: 900px;">
+    <div class="row g-3">
+        <!-- Chart Department -->
+        <div class="col-md-6">
             <div class="card shadow-sm">
+                <div class="card-header text-center">
+                    <strong>Department</strong>
+                </div>
                 <div class="card-body">
                     <canvas id="myChartDepartment"></canvas>
                 </div>
             </div>
         </div>
-        <div class="col>
+
+        <!-- Chart Jabatan -->
+        <div class="col-md-6">
             <div class="card shadow-sm">
+                <div class="card-header text-center">
+                    <strong>Jabatan</strong>
+                </div>
                 <div class="card-body">
                     <canvas id="myChartJabatan"></canvas>
                 </div>
@@ -20,6 +29,7 @@
         </div>
     </div>
 </div>
+
 
 @section Scripts {
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>

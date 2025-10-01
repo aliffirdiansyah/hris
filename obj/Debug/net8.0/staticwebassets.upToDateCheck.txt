@@ -1,5 +1,6 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\qris.png
 wwwroot\js\datatable-init.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
